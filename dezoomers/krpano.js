@@ -71,7 +71,6 @@ var seadragon = (function () { //Code isolation
 			processNextUrl();
 		},
 		"getTileURL" : function (col, row, zoom, data) {
-			col++; row++; // They count from 1
 			function replacer(match, zeroes, letter) {
 					var val = ({
 						h:col, x:col, u:col, c:col,
